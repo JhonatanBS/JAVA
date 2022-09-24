@@ -1,2 +1,1 @@
-# JAVA
-Repositório Back-End para Aulas, Projetos, Desafios e documentação.
+<img src="./Assets/java.gif" />
