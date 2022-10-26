@@ -37,12 +37,8 @@ public class Program {
         System.out.println(arrayC);
 
         System.out.println("Array Resulting:");
-        for(i = 0; i < arrayC.length; i++) {
-            System.out.println(arrayC[i]);
-        }
-
         for( Integer array : arrayC) {
-
+            System.out.println(array);
         }
     }
 }
