@@ -15,7 +15,17 @@ public class Main {
         Considere o valor de π = 3,14159
          */
 
-        Circle circle = new Circle();
-        System.out.printf("\nAREA: %.2f", circle.calculateArea());
+        //Circle circle = new Circle();
+        //System.out.printf("\nAREA: %.2f", circle.calculateArea());
+
+        /*
+        Fazer um programa para ler quatro valores inteiros A, B, C e D. A seguir,
+        calcule e mostre a diferença do produto
+        de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
+         */
+
+        FourValues fourValues = new FourValues();
+        System.out.printf("Diference: %d", fourValues.calculateFourValues());
+
     }
 }
