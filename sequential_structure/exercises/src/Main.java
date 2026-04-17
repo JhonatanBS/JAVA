@@ -24,8 +24,18 @@ public class Main {
         de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
          */
 
-        FourValues fourValues = new FourValues();
-        System.out.printf("Diference: %d", fourValues.calculateFourValues());
+        //FourValues fourValues = new FourValues();
+        //System.out.printf("Diference: %d", fourValues.calculateFourValues());
+
+        Employee employee = new Employee();
+        employee.enterInputData();
+
+        System.out.printf("""
+                \nEmployee: %s
+                Hours: %.2f 
+                Value: %.2f 
+                Salary: R$ %.2f
+                """, employee.getRegister(), employee.getWorkedHours(), employee.getValueOfHour(), employee.calculateSalary());
 
     }
 }
