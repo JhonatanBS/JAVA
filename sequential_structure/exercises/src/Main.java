@@ -52,28 +52,56 @@ public class Main {
         o valor unitário de cada peça 2. Calcule e mostre o valor a ser pago.
         */
 
-        List<Products> productsList = new ArrayList<>();
+        //List<Products> productsList = new ArrayList<>();
 
-        Products productOne = new Products();
-        productOne.calculateTotal();
+        // Products productOne = new Products();
+        //productOne.calculateTotal();
 
-        Products productTwo = new Products();
-        productTwo.calculateTotal();
+        //Products productTwo = new Products();
+        //productTwo.calculateTotal();
 
-        productsList.add(productOne);
-        productsList.add(productTwo);
+        // productsList.add(productOne);
+        //productsList.add(productTwo);
 
-        System.out.println("----------------------");
+        // System.out.println("----------------------");
 
-        for (Products p : productsList) {
-            System.out.println("Code: " + p.getCode());
-            System.out.printf("Quantity: %.0f \n", p.getQuantity());
-            System.out.printf("Price: %.2f \n", p.getPrice());
-            System.out.printf("Total: %.2f \n", p.getTotal());
-            System.out.println("----------------------");
-        }
+        //for (Products p : productsList) {
+        //   System.out.println("Code: " + p.getCode());
+        //   System.out.printf("Quantity: %.0f \n", p.getQuantity());
+        //  System.out.printf("Price: %.2f \n", p.getPrice());
+        //   System.out.printf("Total: %.2f \n", p.getTotal());
+        //   System.out.println("----------------------");
+        //}
 
-        System.out.printf("\nThe value your pay is: %.2f", productOne.getTotal() + productTwo.getTotal());
-        
+        //System.out.printf("\nThe value your pay is: %.2f", productOne.getTotal() + productTwo.getTotal());
+
+        /*
+        Fazer um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C.
+        Em seguida, calcule e mostre:
+         a) a área do triângulo retângulo que tem A por base e C por altura.
+         b) a área do círculo de raio C. (pi = 3.14159)
+         c) a área do trapézio que tem A e B por bases e C por altura.
+         d) a área do quadrado que tem lado B.
+         e) a área do retângulo que tem lados A e B.
+        */
+
+        Area area = new Area();
+        area.enterDataArea();
+
+        System.out.printf("""
+                        \n----------------------
+                        Triangle: %.2f
+                        Circle: %.2f
+                        Trapezoid: %.2f
+                        Square: %.2f
+                        Rectangle: %.2f
+                        ----------------------
+                        """,
+                (area.getA() * area.getC()) / 2,
+                (area.getC() * area.getC()) * 3.14159,
+                ((area.getA() + area.getB()) * area.getC()) / 2,
+                area.getB() * area.getB(),
+                area.getA() * area.getB()
+        );
     }
 }
