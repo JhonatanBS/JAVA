@@ -12,6 +12,29 @@
 
 <div align="center">
   <img src="./Assets/projects.png" width="300px">
+ <hr>
+  <table>
+    <tr>
+      <th>NAME</th>
+      <th>DESCRIPTION</th>
+      <th>TYPE</th>
+      <th>LIBRARY</th>
+    </tr>
+
+  <tr>
+    <td><a href="https://github.com/JhonatanBS/dsmovie" target="_blank">DSMOVIE</a></td>
+    <td>Our site lets you browse a list of movies and rate each one from 1 to 5 stars, saving your ratings so you can track your favorites.</td>
+    <td>CHALLENGE</td>
+    <td><a href="https://spring.io/">SPRING BOOT</a> , <a href="https://react.dev/">REACT</a></td>
+  </tr>
+  
+  <tr>
+    <td><a href="https://github.com/JhonatanBS/DSVendas" target="_blank">DSVENDAS</a></td>
+    <td>Our site lists salespeople, visited clients, and closed deals, along with the value of each sale, allowing you to track your team’s performance in a simple and efficient way.</td>
+    <td>CHALLENGE</td>
+    <td><a href="https://spring.io/">SPRING BOOT</a> , <a href="https://react.dev/">REACT</a></td>
+  </tr>
+  </table>
 <hr>
   <img src="./Assets/certificate.png" width="300px">
 </div>
