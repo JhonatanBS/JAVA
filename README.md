@@ -9,3 +9,11 @@
   <li><strong>Conditional Structure:</strong> allows the program to make decisions based on conditions, using commands such as <code>if</code>, <code>else</code>, <code>else if</code>, <code>switch case</code>, and the <code>ternary expression</code>.</li>
 </ul>
 <hr>
+
+<div align="center">
+  <img src="./Assets/projects.svg" width="300px">
+<hr>
+  <img src="./Assets/certificate.svg" width="300px">
+</div>
+
+<hr>
