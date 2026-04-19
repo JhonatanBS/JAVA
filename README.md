@@ -11,9 +11,9 @@
 <hr>
 
 <div align="center">
-  <img src="./Assets/projects.svg" width="300px">
+  <img src="./Assets/projects.png" width="300px">
 <hr>
-  <img src="./Assets/certificate.svg" width="300px">
+  <img src="./Assets/certificate.png" width="300px">
 </div>
 
 <hr>
