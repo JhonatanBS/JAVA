@@ -19,6 +19,12 @@ public class Main
 		
 		//System.out.printf(evenOrOdd.calculateEvenOrOdd(), evenOrOdd.value);
 
+		/*
+		Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "São Múltiplos" ou "Não são
+        Múltiplos", indicando se os valores lidos são múltiplos entre si. Atenção: os números devem poder ser digitados em
+        ordem crescente ou decrescente.
+		* */
+
 		MultipleOfNumbers multipleOfNumbers = new MultipleOfNumbers();
 
 		System.out.println(multipleOfNumbers.multipleTwoNumbers());
