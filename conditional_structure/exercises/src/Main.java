@@ -1,23 +1,22 @@
 import java.util.Scanner;
 
-public class Main
-{
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 		
 		/*
 		  Fazer um programa para ler um número inteiro, e 
 		  depois dizer se este número é negativo ou não.
 		*/
-		
-		//PositiveOrNegative positiveOrNegative = new PositiveOrNegative();
-		//int value = positiveOrNegative.getValue();
-		
-		//System.out.println(value < 0 ? "\nThe value is negative!" : "\nThe value is positive!");
-		
-		//EvenOrOdd evenOrOdd = new EvenOrOdd();
-		
-		//System.out.printf(evenOrOdd.calculateEvenOrOdd(), evenOrOdd.value);
+
+        //PositiveOrNegative positiveOrNegative = new PositiveOrNegative();
+        //int value = positiveOrNegative.getValue();
+
+        //System.out.println(value < 0 ? "\nThe value is negative!" : "\nThe value is positive!");
+
+        //EvenOrOdd evenOrOdd = new EvenOrOdd();
+
+        //System.out.printf(evenOrOdd.calculateEvenOrOdd(), evenOrOdd.value);
 
 		/*
 		Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "São Múltiplos" ou "Não são
@@ -25,8 +24,17 @@ public class Main
         ordem crescente ou decrescente.
 		* */
 
-		MultipleOfNumbers multipleOfNumbers = new MultipleOfNumbers();
+        //MultipleOfNumbers multipleOfNumbers = new MultipleOfNumbers();
 
-		System.out.println(multipleOfNumbers.multipleTwoNumbers());
-	}
+        //System.out.println(multipleOfNumbers.multipleTwoNumbers());
+
+		/*
+		Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode
+        começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
+		 */
+
+        HourOfGame hourOfGame = new HourOfGame();
+
+        System.out.printf("\nThe game lasted %d hours", hourOfGame.calculateHourOfGame());
+    }
 }
