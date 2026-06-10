@@ -15,8 +15,12 @@ public class Main
 		
 		//System.out.println(value < 0 ? "\nThe value is negative!" : "\nThe value is positive!");
 		
-		EvenOrOdd evenOrOdd = new EvenOrOdd();
+		//EvenOrOdd evenOrOdd = new EvenOrOdd();
 		
-		System.out.printf(evenOrOdd.calculateEvenOrOdd(), evenOrOdd.value);
+		//System.out.printf(evenOrOdd.calculateEvenOrOdd(), evenOrOdd.value);
+
+		MultipleOfNumbers multipleOfNumbers = new MultipleOfNumbers();
+
+		System.out.println(multipleOfNumbers.multipleTwoNumbers());
 	}
 }
