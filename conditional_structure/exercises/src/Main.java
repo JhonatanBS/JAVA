@@ -33,8 +33,17 @@ public class Main {
         começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
 		 */
 
-        HourOfGame hourOfGame = new HourOfGame();
+        //HourOfGame hourOfGame = new HourOfGame();
 
-        System.out.printf("\nThe game lasted %d hours", hourOfGame.calculateHourOfGame());
+        //System.out.printf("\nThe game lasted %d hours", hourOfGame.calculateHourOfGame());
+
+        /*
+        Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste ‘item’. A
+        seguir, calcule e mostre o valor da conta a pagar.
+         */
+
+        MarketListProcessor marketListProcessor = new MarketListProcessor();
+
+        System.out.printf("\nTotal: R$ %.2f", marketListProcessor.calculateProduct());
     }
 }
