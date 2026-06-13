@@ -52,8 +52,23 @@ public class Main {
         nenhum destes intervalos, deverá ser impressa a mensagem “Fora de intervalo”.
 		*/
 
-        Interval interval = new Interval();
+        //Interval interval = new Interval();
 
-        interval.betweenInterval();
+        //interval.betweenInterval();
+
+        		/*
+        Leia 2 valores com uma casa decimal (x e y), que devem representar as coordenadas
+        de um ponto em um plano. A seguir, determine qual o quadrante ao qual pertence o
+        ponto, ou se está sobre um dos eixos cartesianos ou na origem (x = y = 0).
+
+        Se o ponto estiver na origem, escreva a mensagem “Origem”.
+
+        Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a
+        situação.
+		*/
+
+        Cartesian cartesian = new Cartesian();
+
+        cartesian.whatIsInterval();
     }
 }
